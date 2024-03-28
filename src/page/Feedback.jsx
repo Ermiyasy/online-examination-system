@@ -1,12 +1,13 @@
 import loginimag from '../asset/bg-01.jpg'
 import "./logincard.css"
 import"./logincard.css"
+import Navbar from '../Navbar';
 
 function Feedback(){
   
   return(
     <>
-   
+     <Navbar />
   
    <div className="card">
             <div>

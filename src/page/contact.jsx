@@ -1,9 +1,12 @@
 import loginimag from '../asset/bg-01.jpg'
 import"./logincard.css"
+import Navbar from '../Navbar';
+
 function Contact(){
  
   return(
     <>
+     <Navbar />
    
     <div className="card">
             <div>

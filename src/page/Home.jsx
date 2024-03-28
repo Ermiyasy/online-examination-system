@@ -2,7 +2,7 @@ import loginimag from '../asset/bg-01.jpg'
 import {Link} from 'react-router-dom'
 import"./logincard.css"
 import { useState } from 'react'
-
+import Navbar from '../Navbar';
 
 function Home(){
     const [name,setName]= useState();
@@ -12,7 +12,7 @@ function Home(){
  
   return(
     <>
-   
+        <Navbar />
    <div className="card">
             <div>
             <img className='card-image' src={loginimag} alt="Game card " />

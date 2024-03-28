@@ -5,6 +5,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import Navbar from '../Navbar';
 
 function About(){
   
@@ -12,7 +13,7 @@ function About(){
  
   return(
     <>
-   
+     <Navbar/>
     <div className="card">
             <div>
             <img className='card-image' src={loginimag} alt="Game card " />
