@@ -1,10 +1,12 @@
 import loginimag from '../asset/bg-01.jpg'
 import"./logincard.css"
+import Navbar from '../Navbar'
+import Footer from '../Footer'
 function Contact(){
  
   return(
     <>
-   
+   <Navbar />
     <div className="card">
             <div>
             <img className='card-image' src={loginimag} alt="Game card " />
@@ -20,6 +22,7 @@ function Contact(){
                       </h2>
                 </div>
         </div>
+        <Footer/>
         </>
   );
 

@@ -2,6 +2,9 @@ import loginimag from '../asset/bg-01.jpg'
 import {Link} from 'react-router-dom'
 import"./logincard.css"
 import { useState } from 'react'
+import Navbar from '../Navbar'
+import Footer from '../Footer'
+
 
 
 function Home(){
@@ -12,8 +15,8 @@ function Home(){
  
   return(
     <>
-   
-   <div className="card">
+       <Navbar />
+     <div className="card">
             <div>
             <img className='card-image' src={loginimag} alt="Game card " />
             </div>
@@ -36,6 +39,7 @@ function Home(){
                         <p className='card-text'>Thank you for working with us {name}</p>
                 </div>
         </div>
+        <Footer />
         </>
   );
 

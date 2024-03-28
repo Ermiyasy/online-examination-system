@@ -7,19 +7,19 @@ function preventDefault(event) {
   event.preventDefault();
 }
 
-export default function Deposits() {
+export default function CardStudent() {
   return (
     <React.Fragment>
-      <Title>Recent Deposits</Title>
+      <Title>Student</Title>
       <Typography component="p" variant="h4">
-        $3,024.00
+        Student
       </Typography>
       <Typography color="text.secondary" sx={{ flex: 1 }}>
-        on 15 March, 2019
+        View cadidate student's
       </Typography>
       <div>
         <Link color="primary" href="#" onClick={preventDefault}>
-          View balance
+          View More
         </Link>
       </div>
     </React.Fragment>

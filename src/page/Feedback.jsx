@@ -1,12 +1,15 @@
 import loginimag from '../asset/bg-01.jpg'
 import "./logincard.css"
 import"./logincard.css"
+import Navbar from '../Navbar'
+import Footer from '../Footer'
+
 
 function Feedback(){
   
   return(
     <>
-   
+   <Navbar />
   
    <div className="card">
             <div>
@@ -23,6 +26,7 @@ function Feedback(){
                       </h2>
                 </div>
         </div>
+        <Footer />
     </>
   );
 
