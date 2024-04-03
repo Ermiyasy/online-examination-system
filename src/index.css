@@ -12,13 +12,16 @@ code {
     monospace;
 }
 
-
-
 .footer{
-  background-color: rgb(0, 48, 106);
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 0px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  padding: 15px 200px;
+  align-items: center; 
+  text-align: center; 
+  border-radius: 5px; 
+  background-color:hsl(199, 98%, 48%); 
 }
 .footer p{
   text-align: center;

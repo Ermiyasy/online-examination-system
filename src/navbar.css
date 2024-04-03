@@ -9,7 +9,7 @@ body{
 
 }
 .nav{
-    background-color: rgb(0, 48, 106);
+    background-color:hsl(199, 98%, 48%); 
     display: flex;
     align-items: center;
     height: 60px;
@@ -40,10 +40,4 @@ body{
     text-decoration: none;
     align-items: center;
     color: #fff;
-}
-.nav-menu ul li a:hover{
-  color:hsl(228, 81%, 25%) ;
-  background-color: aliceblue;
-  padding: 4px 10px;
-  border-radius: 2px;
 }
