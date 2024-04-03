@@ -1,8 +1,18 @@
-import loginimag from '../asset/bg-01.jpg'
-import {Link} from 'react-router-dom'
+
 import"./logincard.css"
 import { useState } from 'react'
+<<<<<<< Updated upstream
 import Navbar from '../Navbar';
+=======
+import About from '../page/about';
+
+import {Route, Routes} from 'react-router-dom'
+import Contact from '../page/contact';
+import Admin  from '../Admin'
+import Feedback from '../page/Feedback';
+import LoginCard from "./LoginCard";
+
+>>>>>>> Stashed changes
 
 function Home(){
     const [name,setName]= useState();
@@ -12,6 +22,7 @@ function Home(){
  
   return(
     <>
+<<<<<<< Updated upstream
         <Navbar />
    <div className="card">
             <div>
@@ -36,6 +47,19 @@ function Home(){
                         <p className='card-text'>Thank you for working with us {name}</p>
                 </div>
         </div>
+=======
+     <div>
+      <Routes> 
+         <Route path='/about' element={<About/>}></Route>
+         <Route path='/Feedback' element={<Feedback/>}></Route>
+         <Route path='/contact' element={<Contact/>}></Route>
+         <Route path='/Admin' element={<Admin />}></Route>
+         <Route path='/LoginCard' element={<LoginCard />}></Route>
+      </Routes>
+      
+     </div>
+  
+>>>>>>> Stashed changes
         </>
   );
 

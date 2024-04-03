@@ -1,0 +1,107 @@
+.Side{ 
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; 
+    flex-direction: column; 
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    bottom: 75px; 
+    margin-bottom: 2px; 
+    margin-top: 2px; 
+    box-shadow: 5px,5px hsla(0, 0%, 0%, 0.63); 
+    padding: 10px; 
+    padding-right:15px ;
+    width: 200px;
+    align-items: center;
+} 
+
+.header-title{ 
+    font-weight: 500; 
+    font-size: 30px;
+    padding: 2px 0px; 
+    
+} 
+.list{ 
+    align-items: left; 
+    max-width: 200px; 
+    
+} 
+.list ul{ 
+
+    list-style: none; 
+    text-decoration: none; 
+    padding: 0px; 
+    margin-right: 35px; 
+    margin-left: 15px;
+} 
+
+.list ul li{ 
+    
+    font-weight: 300;
+    text-align: center; 
+    text-decoration: none; 
+    margin-top: 15px; 
+    border-radius: 5px;
+    padding: 10px; 
+
+} 
+.list ul li :hover{ 
+    background-color:hsl(199, 98%, 48%); 
+    border-radius: 4px;
+    color:#fff; 
+    padding: 2px 4px; 
+    list-style: none; 
+    text-decoration: none;
+  
+} 
+.list-title{ 
+    text-decoration: none; 
+    color: hsl(199, 98%, 48%); 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-menu{ 
+    display: none; 
+    margin-left: 10px; 
+ } 
+ .menu ul li:hover .sub-menu {
+    display: block;
+   position: absolute;
+    width: 200px;
+    background-color: #fff;
+    text-decoration: none;
+
+ }    
+    .menu ul li:hover .sub-menu ul {
+    display: block;
+   
+    max-width: 250px;
+    padding: 10px 30px;
+    margin-top: -8px;
+    margin-left: 15px;
+    background-color: #fff;
+    text-decoration: none;
+    color: hsl(199, 98%, 48%);
+    box-shadow: 5px 5px 5px 2px hsla(0, 0%, 35%, 0.788);
+
+ }    
+ .menu ul li:hover .sub-menu ul li{
+    text-decoration: none;
+    text-align: left;
+    padding: 5px 20px;
+ } 
+ .last-two{
+    text-decoration: none; 
+    color: hsl(199, 98%, 48%); 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 200px;
+
+ }
+ .last-two ul li{
+    text-align: center; 
+    text-decoration: none; 
+    margin-top: 15px; 
+    padding: 0px; 
+ }

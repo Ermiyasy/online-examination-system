@@ -13,7 +13,11 @@ function About(){
  
   return(
     <>
+<<<<<<< Updated upstream
      <Navbar/>
+=======
+     
+>>>>>>> Stashed changes
     <div className="card">
             <div>
             <img className='card-image' src={loginimag} alt="Game card " />

@@ -1,7 +1,9 @@
-import loginimag from '../asset/bg-01.jpg'
+
 import "./logincard.css"
 import"./logincard.css"
 import { useState } from 'react'
+import loginimag from '../asset/bg-01.jpg'
+import {Link} from 'react-router-dom'
 
 function LoginCard(){
   
@@ -12,8 +14,8 @@ function LoginCard(){
   };
   return(
     <>
-   
-    <div className="card">
+      
+   <div className="card">
             <div>
             <img className='card-image' src={loginimag} alt="Game card " />
             </div>
@@ -27,7 +29,9 @@ function LoginCard(){
                             <input type='password' placeholder='Enter Your Password'/>
                         </label>
                         <br />
-                        <button value={loginimag} >Login</button>
+                        
+                       <Link to="/Admin"><button value={loginimag} >Login</button></Link>
+        
                         <button type="reset">RESET</button>
                         <br />
                         <br />

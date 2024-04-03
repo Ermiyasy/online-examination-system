@@ -1,12 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+body { 
+  margin: 0; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+    sans-serif; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+} 
+ 
+code { 
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 
+    monospace; 
+} 
+.footer{ 
+  background-color:#88bae2 ; 
+  position: relative; 
+  top:50px; 
 
+<<<<<<< Updated upstream
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -26,4 +36,32 @@ code {
 .footer p{
   text-align: center;
   color: aliceblue;
+=======
+  text-align: center; 
+} 
+.Body{ 
+  
+  margin-left: 250px; 
+  border-radius: 5px;
+  width: 1110px; 
+  height: 480px; 
+  margin-bottom: 62px; 
+} 
+ 
+.text{ 
+  background-color: antiquewhite; 
+  padding: 10px; 
+  display: flex; 
+  flex-direction: column; 
+  background-color: none; 
+  align-items: center; 
+  text-align: center; 
+} 
+.textFiled{ 
+  margin: 50px; 
+  padding: 5px; 
+} 
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{ 
+ margin-top: 18px; 
+>>>>>>> Stashed changes
 }

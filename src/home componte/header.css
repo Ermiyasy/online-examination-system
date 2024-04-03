@@ -1,0 +1,54 @@
+.div1{ 
+  padding: 10px 120px; 
+  display: flex; 
+  position: fixed;
+  top: 0px;
+  left: 10px;
+  right: 0px;
+  align-items: center; 
+  background-color:hsl(199, 98%, 48%); 
+  max-height: 54px; 
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-left:  220px;
+  margin-top: 4px;
+ 
+} 
+.divf{ 
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  padding: 2px 200px;
+  align-items: center; 
+  text-align: center; 
+  border-radius: 5px; 
+  background-color:hsl(199, 98%, 48%); 
+} 
+.titleh{ 
+  color: #fff; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-weight: 600; 
+  font-size: 25px;
+  padding-top: 5px; 
+  padding-bottom: 5px;
+  padding-left: 1px;
+  padding-right: 550px;
+
+} 
+.titlef{ 
+  color: #fff; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-weight: 200; 
+  font-size: 20px; 
+  text-align: center; 
+} 
+.title{ 
+  flex: 1; 
+
+} 
+
+.menulist{ 
+  flex: 1; 
+
+}
